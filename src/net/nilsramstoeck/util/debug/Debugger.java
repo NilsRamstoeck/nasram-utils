@@ -1,6 +1,6 @@
 package net.nilsramstoeck.util.debug;
 
-public interface Debugger {
+public class Debugger {
 
 	/**
 	 * Turns Debugging On/Off
