@@ -5,7 +5,7 @@ public class Debugger {
 	/**
 	 * Turns Debugging On/Off
 	 */
-	public static boolean DEBUG = true;	
+	public static boolean DEBUG = false;	
 	
 	/**
 	 * System.out.println(Object o) if {@code ServerDashboard.DEBUG} is {@code true}
