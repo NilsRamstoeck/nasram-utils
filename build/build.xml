@@ -4,7 +4,7 @@
     <property name="dir.workspace" value="${dir.buildfile}/../.."/>
     <property name="dir.jarfile" value="C:/Users/nrams/Documents/Java/lib/nasram"/>
     <target name="create_jar">
-        <jar destfile="${dir.jarfile}/nasram-util-1.0.0.jar" filesetmanifest="mergewithoutmain">
+        <jar destfile="${dir.jarfile}/nasram-utils-1.0.0.jar" filesetmanifest="mergewithoutmain">
             <fileset dir="${dir.workspace}/UtilityClasses/bin"/>
 			<fileset dir="${dir.workspace}/UtilityClasses/src" />
         </jar>
