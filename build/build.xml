@@ -6,6 +6,7 @@
     <target name="create_jar">
         <jar destfile="${dir.jarfile}/nasram-util-1.0.0.jar" filesetmanifest="mergewithoutmain">
             <fileset dir="${dir.workspace}/UtilityClasses/bin"/>
+			<fileset dir="${dir.workspace}/UtilityClasses/src" />
         </jar>
     </target>
 </project>
